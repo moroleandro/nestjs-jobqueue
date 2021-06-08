@@ -30,6 +30,9 @@
 
 ```bash
 $ npm install
+
+$ docker-compose up -d 
+
 ```
 
 ## Running the app
@@ -41,33 +44,21 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-# production mode
-$ npm run start:prod
 ```
 
-## Test
-
+## Routes
 ```bash
-# unit tests
-$ npm run test
+# Access status page Queues 
+http://localhost:3000/admin/bull
 
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
+# Sign-up users 
+POST
+http://localhost:3000/users/
+body: {
+  email: "teste@teste.com"
+  name: "Mario"
+}
 ```
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+## Author
+@moroleandro
