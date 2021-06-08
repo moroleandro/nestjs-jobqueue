@@ -1,0 +1,7 @@
+MAIL_HOST=smtp.ethereal.email
+MAIL_PORT=587
+MAIL_USERNAME=laisha.huels35@ethereal.email
+MAIL_PASSWORD=18pq2UYHD7Pf29mVuq
+
+QUEUE_HOST=localhost
+QUEUE_PORT=6379
